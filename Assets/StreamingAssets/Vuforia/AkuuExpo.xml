@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="U3Dtarget_foretfleuvedrone_6" size="1.000000 0.707214" />
+    <ImageTarget name="U3Dtarget_foret_13" size="1.000000 0.707071" />
+    <ImageTarget name="U3Dtarget_villagedrone_0" size="1.000000 0.707214" />
+    <ImageTarget name="U3Dtarget_fleuvearcenciel_16" size="1.000000 0.707428" />
+    <ImageTarget name="U3Dtarget_regard_20" size="1.000000 0.707428" />
+    <ImageTarget name="U3Dtarget_foretarbrepenche_3" size="1.000000 0.707714" />
+    <ImageTarget name="U3Dtarget_raouletsonpoisson_21" size="1.000000 0.707714" />
+    <ImageTarget name="U3Dtarget_oiseaulonguejambes_19" size="1.000000 0.707714" />
+    <ImageTarget name="U3Dtarget_oiseaubranche_15" size="1.000000 0.707714" />
+    <ImageTarget name="U3Dtarget_artisanat_22" size="1.000000 0.707214" />
+    <ImageTarget name="U3Dtarget_pirogue_18" size="1.000000 0.707071" />
+    <ImageTarget name="U3Dtarget_interface_17" size="1.000000 0.707214" />
+    <ImageTarget name="U3Dtarget_oiseau_14" size="1.000000 0.707214" />
+    <ImageTarget name="U3Dtarget_mangrove_10" size="1.000000 0.707071" />
+    <ImageTarget name="U3Dtarget_rireenfants_12" size="1.000000 0.707214" />
+    <ImageTarget name="U3Dtarget_arbre_11" size="1.000000 0.707071" />
+    <ImageTarget name="U3Dtarget_deforestation_9" size="1.000000 0.707214" />
+    <ImageTarget name="U3Dtarget_poubelle_8" size="1.000000 0.707214" />
+    <ImageTarget name="U3Dtarget_cdsPuertoMiguel_7" size="1.000000 0.707214" />
+    <ImageTarget name="U3Dtarget_enfants_5" size="1.000000 0.707214" />
+    <ImageTarget name="U3Dtarget_arbremyst_4" size="1.000000 0.707214" />
+    <ImageTarget name="U3Dtarget_gilette_2" size="1.000000 0.707214" />
+    <ImageTarget name="U3Dtarget_coca_1" size="1.000000 0.707214" />
+  </Tracking>
+</QCARConfig>
