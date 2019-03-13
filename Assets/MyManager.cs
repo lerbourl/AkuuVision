@@ -18,11 +18,9 @@ public class MyManager : MonoBehaviour {
     {
         if (sceneUsesVuforia)
         {
-            GlobalControl.Instance.gameObject.GetComponent<AudioSource>().Pause();
         }
         else {
             StopVuforia();
-            GlobalControl.Instance.gameObject.GetComponent<AudioSource>().UnPause();
         }
         GlobalControl.Instance.updateLanguage();
     }
