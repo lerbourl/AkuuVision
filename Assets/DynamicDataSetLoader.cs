@@ -8,7 +8,6 @@ public class DynamicDataSetLoader : MonoBehaviour
 {
     // Model is the GameObject to be augmented
     public GameObject Model;
-    string dataSetName = "AkuuExpo.xml";
 
     // Use this for initialization
     void Start()
