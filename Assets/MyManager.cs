@@ -24,6 +24,7 @@ public class MyManager : MonoBehaviour {
             StopVuforia();
             GlobalControl.Instance.gameObject.GetComponent<AudioSource>().UnPause();
         }
+        GlobalControl.Instance.updateLanguage();
     }
 
     private void Update()

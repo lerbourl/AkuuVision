@@ -97,7 +97,7 @@ public class GlobalControl : MonoBehaviour {
     }
 
     // updating other game objets
-    private void updateLanguage()
+    public void updateLanguage()
     {
         foreach (var t in FindObjectsOfType<TextLanguage>())
         {
@@ -211,14 +211,6 @@ public class GlobalControl : MonoBehaviour {
     }
 
     #endregion PUBLIC_INTERFACE
-
-    #region ON_RESPOND
-    // update texts
-    private void OnLevelWasLoaded()
-    {
-        updateLanguage();
-    }
-    #endregion ON_RESPOND
 
     #region INITIALIZATION
 
