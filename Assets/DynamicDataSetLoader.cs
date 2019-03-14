@@ -13,7 +13,11 @@ public class DynamicDataSetLoader : MonoBehaviour
     void Start()
     {
         // Registering call back to know when Vuforia is ready
-        VuforiaARController.Instance.RegisterVuforiaStartedCallback(OnVuforiaStarted);
+        if (!GlobalControl.Instance.augmentedVideosInitialized)
+        {
+            GlobalControl.Instance.augmentedVideosInitialized = true;
+            VuforiaARController.Instance.RegisterVuforiaStartedCallback(OnVuforiaStarted);
+        }
     }
 
     private void OnVuforiaStarted()

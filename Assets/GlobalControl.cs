@@ -9,6 +9,8 @@ public class GlobalControl : MonoBehaviour {
     // ONLY CONSTANT TO CHANGE BY HAND
     public const int NUMBER_OF_PHOTOS = 23;
 
+    public bool augmentedVideosInitialized = false;
+
     #region GOOGLESHEET_VAR
 
     private string gameDataFileName = "Akuu-exhibition-data";

@@ -18,9 +18,10 @@ public class MyManager : MonoBehaviour {
     {
         if (sceneUsesVuforia)
         {
+            VuforiaBehaviour.Instance.enabled = true;
         }
         else {
-            StopVuforia();
+            VuforiaBehaviour.Instance.enabled = false;
         }
         GlobalControl.Instance.updateLanguage();
     }
@@ -50,12 +51,6 @@ public class MyManager : MonoBehaviour {
         {
             v.Pause();
         }
-    }
-
-    public void StopVuforia()
-    {
-        Debug.Log("Launch Vuforia !");
-        VuforiaBehaviour.Instance.enabled = false;
     }
 
 
