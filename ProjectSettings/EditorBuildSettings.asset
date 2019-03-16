@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/myScenes/MainScene.unity
     guid: 3d0f5f9d065277246b8dabf48b877817
+  - enabled: 1
+    path: Assets/MainSceneApple.unity
+    guid: 49c5a6592fea5094e83ad799d5edaf8f
   - enabled: 1
     path: Assets/myScenes/CameraScene.unity
     guid: 34d995c54169d3146becda904ceb1a02

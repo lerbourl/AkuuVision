@@ -769,7 +769,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: mainScene
+          m_StringArgument: mainSceneApple
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -1312,6 +1312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca698a8bc49b764384b6342b678e3c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  augmentedVideosInitialized: 0
   foundPhotos: 00000000000000000000000000000000000000000000000000
 --- !u!1 &1800956405
 GameObject:
