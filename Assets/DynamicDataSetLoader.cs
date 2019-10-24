@@ -16,12 +16,35 @@ public class DynamicDataSetLoader : MonoBehaviour
         if (!GlobalControl.Instance.augmentedVideosInitialized)
         {
             GlobalControl.Instance.augmentedVideosInitialized = true;
+            VuforiaARController.Instance.RegisterVuforiaStartedCallback(LoadAndActivateDataset);
             VuforiaARController.Instance.RegisterVuforiaStartedCallback(OnVuforiaStarted);
         }
     }
 
+    public void LoadAndActivateDataset()
+    {
+        Debug.Log("activate database");
+        TrackerManager trackerManager = (TrackerManager)TrackerManager.Instance;
+        ObjectTracker objectTracker = TrackerManager.Instance.GetTracker<ObjectTracker>();
+        //Stop the tracker.
+        objectTracker.Stop();
+
+        //Create a new dataset object.
+        DataSet dataset = objectTracker.CreateDataSet();
+        //Load and activate the dataset if it exists.
+        if (DataSet.Exists("AkuuExpo"))
+        {
+            dataset.Load("AkuuExpo");
+            objectTracker.ActivateDataSet(dataset);
+        }
+
+        //Start the object tracker.
+        objectTracker.Start();
+    }
+
     private void OnVuforiaStarted()
     {
+        Debug.Log("on vuforia started");
         // get all current TrackableBehaviours
         IEnumerable<TrackableBehaviour> trackableBehaviours =
         TrackerManager.Instance.GetStateManager().GetTrackableBehaviours();

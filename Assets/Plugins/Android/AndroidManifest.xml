@@ -4,8 +4,8 @@
     package="com.unity3d.player"
     xmlns:tools="http://schemas.android.com/tools"
     android:installLocation="preferExternal"
-    android:versionCode="6"
-    android:versionName="6.0">
+    android:versionCode="9"
+    android:versionName="9.0">
     <supports-screens
         android:smallScreens="true"
         android:normalScreens="true"

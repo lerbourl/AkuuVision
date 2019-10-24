@@ -21,7 +21,7 @@ public class MyManager : MonoBehaviour {
             VuforiaBehaviour.Instance.enabled = true;
         }
         else {
-            VuforiaBehaviour.Instance.enabled = false;
+            if (VuforiaBehaviour.Instance != null) VuforiaBehaviour.Instance.enabled = false;
         }
         GlobalControl.Instance.updateLanguage();
     }
