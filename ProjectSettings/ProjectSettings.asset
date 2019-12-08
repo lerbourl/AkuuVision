@@ -153,6 +153,8 @@ PlayerSettings:
       sharedDepthBuffer: 0
       dashSupport: 0
       lowOverheadMode: 0
+      protectedContext: 0
+      v2Signing: 0
     enable360StereoCapture: 0
   isWsaHolographicRemotingEnabled: 0
   protectGraphicsMemory: 1
@@ -262,7 +264,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/LouisL/Documents/UnityProjects/akuu-exhibition-app/myKeystore.keystore
+  AndroidKeystoreName: C:/Users/louis/Downloads/myKeystore.keystore
   AndroidKeyaliasName: mykey
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
